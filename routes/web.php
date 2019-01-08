@@ -18,7 +18,10 @@ Route::get('/alladmin', function () {
     return view('admin.control.table_user');
 });
 Route::get('/map', function () {
-    //return view('admin.control.map');
+    return view('admin.control.map');
+});
+Route::get('/khoangcach', function () {
+    return view('admin.control.khoangcach');
 });
 //Route::get('/', 'HomeController@index')->name('trangchu');
 

@@ -195,6 +195,7 @@
 
         // Sets a listener on a radio button to change the filter type on Places
         // Autocomplete.
+        //AIzaSyBOrpaa9ECnY2JUib0NWv3QXH21JMvc-p4
         function setupClickListener(id, types) {
             var radioButton = document.getElementById(id);
             radioButton.addEventListener('click', function() {
@@ -214,7 +215,7 @@
             });
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOrpaa9ECnY2JUib0NWv3QXH21JMvc-p4&libraries=places&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initMap"
         async defer></script>
 </body>
 </html>

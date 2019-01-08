@@ -4,6 +4,7 @@
     <title>Google Map Demo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <style>
+        //AIzaSyBOrpaa9ECnY2JUib0NWv3QXH21JMvc-p4
         html, body {
             height: 100%;
             margin: 0;
@@ -29,7 +30,7 @@
     </style>
 </head>
 <body>
-<script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap&key=AIzaSyBOrpaa9ECnY2JUib0NWv3QXH21JMvc-p4"
+<script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap&key="
         async defer></script>
 <script>
     var map;

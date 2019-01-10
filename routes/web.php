@@ -10,7 +10,17 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
 
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::group(['middleware' => ['auth']], function() {
+    Route::resource('roles','RoleController');
+    Route::resource('users','UserController');
+    Route::resource('products','ProductController');
+});
 Route::get('/', function () {
     return view('pages.home');
 });
@@ -28,3 +38,7 @@ Route::get('/khoangcach', function () {
 Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
